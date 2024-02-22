@@ -30,7 +30,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/VJ_Bot_Disscussion).",
+                text="Sorry Sir, You are Banned to use me. Contact my [𝗠𝗿 𝗦𝘂𝗻𝗴 𝗝𝗶𝗻𝘄𝗼𝗼](https://t.me/LordSungJinwoo).",
                 disable_web_page_preview=True
             )
             return 400
@@ -42,15 +42,14 @@ async def handle_force_sub(bot: Client, cmd: Message):
             return 200
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n"
+            text="**Please Join My Channel to use this Bot!**\n\n"
                  "Due to Overload, Only Channel Subscribers can use this Bot!",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
-                    ],
-                    [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                       InlineKeyboardButton("🤖 Join UniHub Official Channel", url=invite_link.invite_link)
+                    ],[
+                      InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
                     ]
                 ]
             )
@@ -59,7 +58,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/VJ_Bot_Disscussion).",
+            text="Something went Wrong. Contact my [𝗠𝗿 𝗦𝘂𝗻𝗴 𝗝𝗶𝗻𝘄𝗼𝗼](https://t.me/LordSungJinwoo).",
             disable_web_page_preview=True
         )
         return 200
