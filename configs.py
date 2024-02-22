@@ -19,17 +19,17 @@ class Config(object):
   OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
   ABOUT_BOT_TEXT = f""" 
 
-╭────[ 🔅 Anya Forger 🔅]────⍟
+╭────[𝗨𝗻𝗶𝗛𝘂𝗯 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹]────⍟
 │
-├🔸 My Name: [Anya Forger](https://t.me/{BOT_USERNAME})
+├ ◉ 𝗠𝘆 𝗡𝗮𝗺𝗲: [𝗔𝗻𝘆𝗮 𝗙𝗼𝗿𝗴𝗲𝗿](https://t.me/{BOT_USERNAME})
 │
-├🔸 Channel: [UniHub Official](https://t.me/Unihubofficial)
+├ ◉ 𝗠𝘆 𝗖𝗵𝗮𝗻𝗻𝗲𝗹: [𝗨𝗻𝗶𝗛𝘂𝗯 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹](https://t.me/Unihubofficial)
 │
-╰──────[ 😎 ]───────────⍟
+╰──────[ ♡ ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [LordSungJinwoo](https://telegram.me/LordSungJinwoo)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [𝗟𝗼𝗿𝗱𝗦𝘂𝗻𝗴𝗝𝗶𝗻𝘄𝗼𝗼](https://telegram.me/LordSungJinwoo)
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis Is **Anya Forger**\n\nMy Father Lord Sung Jinwoo Created Me To Manage UniHub's All Files For More Information Check Below ↓.
+Hello, [{}](tg://user?id={})\n\nThis Is **Anya Forger**\n\nMy Father Lord Sung Jinwoo Created Me To Manage UniHub's All Files For More Information Check Below ↓
 """
