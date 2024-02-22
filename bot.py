@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Movies10XSearch)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [𝗠𝗿 𝗦𝘂𝗻𝗴 𝗝𝗶𝗻𝘄𝗼𝗼](https://t.me/LordSungJinwoo)",
                                      disable_web_page_preview=True)
             return
 
@@ -330,7 +330,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("UniHub Official", Url="https://t.me/Unihubofficial")
+                        InlineKeyboardButton("UniHub Official", url="https://t.me/Unihubofficial")
                     ]
                 ]
             )
@@ -385,7 +385,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/Movies10XSearch).",
+                    text="Something went Wrong. Contact my [𝗠𝗿 𝗦𝘂𝗻𝗴 𝗝𝗶𝗻𝘄𝗼𝗼](https://t.me/LordSungJinwoo).",
                     disable_web_page_preview=True
                 )
                 return
