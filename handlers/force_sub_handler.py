@@ -50,7 +50,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
                         InlineKeyboardButton("Join UniHub Official Channel", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("Try Again", url="https://t.me/{client.username}?start={message.command[1]}")
+                        InlineKeyboardButton("Refresh", callback_data="refreshmeh")
                     ]
                 ]
             )
