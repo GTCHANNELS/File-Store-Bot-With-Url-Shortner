@@ -33,5 +33,5 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [LordSungJinwoo](https://telegram.me/LordSungJinwoo)
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis Is Anya **Forger**.
+Hello, [{}](tg://user?id={})\n\nThis Is **Anya Forger**\n\nMy Father Lord Sung Jinwoo Created Me To Share Files With You Guys.
 """
