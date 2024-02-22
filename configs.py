@@ -29,8 +29,7 @@ class Config(object):
 """
   ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [LordSungJinwoo](https://telegram.me/LordSungJinwoo)
-𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝘂𝗿 𝗪𝗼𝗿𝗸 𝗕𝘆 𝗝𝗼𝗶𝗻: [UniHub Official](https://t.me/Unihubofficial)
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis Is **Anya Forger**\n\nMy Father Lord Sung Jinwoo Created Me To Share Files With You Guys.
+Hello, [{}](tg://user?id={})\n\nThis Is **Anya Forger**\n\nMy Father Lord Sung Jinwoo Created Me To Manage UniHub's All Files For More Information Check Below ↓.
 """
