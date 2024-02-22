@@ -377,7 +377,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                                 InlineKeyboardButton("Join UniHub Official Channel", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshme")
                             ]
                         ]
                     )
