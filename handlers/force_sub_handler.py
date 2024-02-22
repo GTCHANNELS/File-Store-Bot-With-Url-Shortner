@@ -47,11 +47,11 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                                InlineKeyboardButton("🤖 Join UniHub Official Channel", url=invite_link.invite_link)
-                            ],
-                            [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
-                            ]
+                        InlineKeyboardButton("Join UniHub Official Channel", url=invite_link.invite_link)
+                    ],
+                    [
+                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshme")
+                    ]
                 ]
             )
         )
