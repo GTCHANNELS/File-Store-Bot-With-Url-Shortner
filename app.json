@@ -7,10 +7,10 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/VJBots/File-Store-Bot-With-Url-Shortner",
-    "website": "https://telegram.dog/VJ_Botz",
-    "success_url": "https://t.me/VJ_Bot_Disscussion",
-    "logo": "https://telegra.ph/file/b39906f572822b3ab82c8.jpg",
+    "repository": "https://github.com/GTCHANNELS/File-Store-Bot-With-Url-Shortner",
+    "website": "https://telegram.dog/Unihubofficial",
+    "success_url": "https://t.me/https://t.me/SuperXEscrow",
+    "logo": "https://telegra.ph/file/2d6dcf5a303c44ae8c77e.jpg",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org"
@@ -55,7 +55,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
